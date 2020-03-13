@@ -1,0 +1,362 @@
+body,html {
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-signin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 40%;
+    max-width: 250px;
+}
+
+
+/*  */
+
+.container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+.btnMainPage {
+    background-color: green;
+    color: white;
+    margin-top: 10px;
+}
+
+.header_top {
+    display: flex;
+    justify-content: space-around;  
+    padding-top: 20px;
+}
+
+.header_top__logo {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn_myTickets {
+    color: white;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 20px;
+    width: 110px;
+    height: 30px;
+    background-image: linear-gradient(to right, rgb(255, 169, 99), rgb(251, 163, 105), rgb(246, 158, 112), rgb(242, 152, 118), rgb(237, 146, 124), rgb(233, 141, 130), rgb(228, 135, 137), rgb(224, 130, 143), rgb(219, 124, 149), rgb(215, 118, 155), rgb(210, 113, 162), rgb(206, 107, 168));
+}
+
+.headerForm {
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    padding-bottom: 200px;
+}
+
+.form_search{
+    padding: 20px;
+}
+
+.form_search input {
+    border-radius: 20px;
+    border: 0px;
+    height: 35px;
+    padding-left: 10px;
+}
+
+#inputNum{
+    width: 90px;
+}
+
+#sub {
+    border-radius: 20px;
+    border: 0px;
+    height: 35px;
+    padding-left: 10px;
+    color: white;
+    font-weight: bold;
+    width: 110px;
+    background-image: linear-gradient(to right, rgb(255, 169, 99), rgb(251, 163, 105), rgb(246, 158, 112), rgb(242, 152, 118), rgb(237, 146, 124), rgb(233, 141, 130), rgb(228, 135, 137), rgb(224, 130, 143), rgb(219, 124, 149), rgb(215, 118, 155), rgb(210, 113, 162), rgb(206, 107, 168));
+}
+
+.header {
+    background-image: url("https://sfhd.ru/wallpapers/2018/10/3840x2160-sfhd.ru-00216.jpg");
+    background-size: 100% 100%;
+    min-height: 575px;
+}
+
+.search-box {
+    min-width: 100%;
+    min-height: 40%;
+    background-color: #ececee;
+    padding-top: 20px;
+    position: absolute;
+}
+
+.flight-title {
+    position: relative;
+    left: 12%;
+    width: 200px;
+    padding-bottom: 30px;
+}
+
+.allFlights {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.allFlights li{
+    padding-top: 20px;
+    list-style: none;
+    border: solid 3px black;
+    border-radius: 20px;
+    width: 500px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.flight-container {
+    display: flex;
+    justify-content: center;
+}
+
+.flight-container button {
+    height: 50px;
+    width: 70px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(255, 169, 99), rgb(251, 163, 105), rgb(246, 158, 112), rgb(242, 152, 118), rgb(237, 146, 124), rgb(233, 141, 130), rgb(228, 135, 137), rgb(224, 130, 143), rgb(219, 124, 149), rgb(215, 118, 155), rgb(210, 113, 162), rgb(206, 107, 168));
+    border: 0px;
+    color: white;
+    font-weight: 500;
+}
+
+.flight-info {
+    width: 300px;
+}
+
+.flight-info p {
+    margin-bottom: 0;
+}
+
+.flight-btn {
+    margin-top: 10px;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.info-btns button{
+    color: white;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 20px;
+    width: 110px;
+    height: 30px;
+    background-image: linear-gradient(to right, rgb(255, 169, 99), rgb(251, 163, 105), rgb(246, 158, 112), rgb(242, 152, 118), rgb(237, 146, 124), rgb(233, 141, 130), rgb(228, 135, 137), rgb(224, 130, 143), rgb(219, 124, 149), rgb(215, 118, 155), rgb(210, 113, 162), rgb(206, 107, 168));
+}
+
+.info-window {
+    margin-top: 10px;
+    width: 750px;
+    height: 400px;
+    max-height: 400px;
+    overflow: overlay;
+}
+
+.info-container {
+    display: none;
+}
+
+.btn_div {
+    position: absolute;
+}
+
+.tickit_basket {
+    background-color: red;
+    position: relative;
+    left: 100px;
+    max-width: 20px;
+    bottom: 15px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.flight-basket { 
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+    margin-right: 50px;
+    margin-top: 10px;
+    opacity: 0.7;
+    width: 500px;
+}
+
+.info-window-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.info-window-btn button {
+    color: white;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 20px;
+    width: 110px;
+    height: 30px;
+    background-image: linear-gradient(to right, rgb(255, 169, 99), rgb(251, 163, 105), rgb(246, 158, 112), rgb(242, 152, 118), rgb(237, 146, 124), rgb(233, 141, 130), rgb(228, 135, 137), rgb(224, 130, 143), rgb(219, 124, 149), rgb(215, 118, 155), rgb(210, 113, 162), rgb(206, 107, 168));
+}
+
+.basket-window {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flight-basket-money {
+    margin-top: 25px;
+}
+
+.flight-basket-price {
+    font-weight: 500px;
+}
+
+.flight-basket-delete {
+    cursor: pointer;
+}
+
+.flight-basket-container {
+    display: flex;
+    padding-top: 10px;
+}
+
+.flight-basket-info {
+    margin-right: 70px;
+}
+
+.info-window-btn-ok{
+    margin-left: 10px;
+}
+
+.inputBasketNum{
+    width: 100px;
+}
+
+.flight-basket-delete {
+    height: 30px;
+    margin-right: 10px;
+    background-image: linear-gradient(to right, rgb(255, 169, 99), rgb(251, 163, 105), rgb(246, 158, 112), rgb(242, 152, 118), rgb(237, 146, 124), rgb(233, 141, 130), rgb(228, 135, 137), rgb(224, 130, 143), rgb(219, 124, 149), rgb(215, 118, 155), rgb(210, 113, 162), rgb(206, 107, 168));
+    width: 30px;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 3px;
+    color: black;
+    font-weight: bold;
+}
+
+.totalSum {
+    margin-bottom: 10px;
+    height: 30px;
+    width: 100px;
+    background-image: linear-gradient(to right, rgb(255, 169, 99), rgb(251, 163, 105), rgb(246, 158, 112), rgb(242, 152, 118), rgb(237, 146, 124), rgb(233, 141, 130), rgb(228, 135, 137), rgb(224, 130, 143), rgb(219, 124, 149), rgb(215, 118, 155), rgb(210, 113, 162), rgb(206, 107, 168));
+    margin-left: 500px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
+.form-basket label {
+    color: white;
+    font-weight: 400;
+}
+
+.basket-btn-form button {
+    margin-left: 10px;
+    color: white;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 20px;
+    width: 110px;
+    height: 30px;
+    background-image: linear-gradient(to right, rgb(255, 169, 99), rgb(251, 163, 105), rgb(246, 158, 112), rgb(242, 152, 118), rgb(237, 146, 124), rgb(233, 141, 130), rgb(228, 135, 137), rgb(224, 130, 143), rgb(219, 124, 149), rgb(215, 118, 155), rgb(210, 113, 162), rgb(206, 107, 168));
+}
+
+.basket-btn-form {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.purchase {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.flight-active { 
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+    margin-right: 50px;
+    margin-top: 10px;
+    opacity: 0.7;
+    width: 500px;
+    margin-left: 80px;
+}
+
+.flight-active-container {
+    display: flex;
+    padding-top: 10px;
+}
+
+.flight-active-delete {
+    height: 30px;
+    margin-right: 10px;
+    background-image: linear-gradient(to right, rgb(255, 169, 99), rgb(251, 163, 105), rgb(246, 158, 112), rgb(242, 152, 118), rgb(237, 146, 124), rgb(233, 141, 130), rgb(228, 135, 137), rgb(224, 130, 143), rgb(219, 124, 149), rgb(215, 118, 155), rgb(210, 113, 162), rgb(206, 107, 168));
+    width: 30px;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 3px;
+    color: black;
+    font-weight: bold;
+}
+
+.flight-active-info { 
+    margin-right: 70px;
+}
+
+.flight-active-money {
+    margin-top: 25px;
+}
+
+.section-top-logo {
+    display: flex;
+    align-items: center;
+    font-family: 'Lobster', cursive;
+    font-size: 49px;
+    color:#3cc3b5;
+}
