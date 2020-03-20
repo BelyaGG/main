@@ -360,3 +360,40 @@ body {
     font-size: 49px;
     color:#3cc3b5;
 }
+
+.flight-sendComment input{ 
+    height: 45px;
+    width: 300px;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.flight-sendComment {
+    display: flex;
+    justify-content: center;
+}
+
+.flight-allComments{
+    display: flex;
+    justify-content: center;
+    overflow: overlay;
+    max-height: 200px;
+}
+
+.flight-allComments ul {
+    margin-top: 10px;
+    padding-left: 0px;
+}
+.ul-commetns li {
+    width: 300px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+}s
+
+.ul-commetns {
+    padding-left: 0px;
+    padding-inline-start: 0px;
+}
+
+

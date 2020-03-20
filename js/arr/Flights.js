@@ -5,14 +5,26 @@ export const FLIGHTS_ARRAY = [
         to: 'Moscow',
         date: '20/03/2020',
         airline: 'United Airlines',
-        price: '200'
+        price: '200',
+        comments: [
+            "bestl",
+            "fff",
+            "f2",
+            "f3"
+        ]
     },
     {
         from: 'Gomel',
         to: 'Moscow',
         date: '20/03/2020',
         airline: 'Emirates flights',
-        price: '180'
+        price: '180',
+        comments: [
+            "22l",
+            "44",
+            "662",
+            "666"
+        ]
     },
     {
         from: 'Gomel',

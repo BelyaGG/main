@@ -1,7 +1,6 @@
-import { deleteTicket } from './deleteTicket.js'
+import { deleteTicket } from './deleteTicket.js';
 
 export const createTicketBasket = ({from,to,date,airline,price},index) => {
-
 
     const li = document.createElement('li');
     li.className = 'flight-basket';

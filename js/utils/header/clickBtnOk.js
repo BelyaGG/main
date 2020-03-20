@@ -1,4 +1,5 @@
 import { confirmOrder } from './confirmOrder.js';
+import { clickBtnCancel } from './clickBtnCancel.js';
 
 export const clickBtnOk = () => {
     const infoWindow = document.querySelector('.info-window');
@@ -28,5 +29,6 @@ export const clickBtnOk = () => {
     infoWindow.appendChild(div);
 
     document.querySelector('.basket-btn-from-ok').addEventListener('click', confirmOrder);
+    document.querySelector('.basket-btn-from-cancel').addEventListener('click', clickBtnCancel)
 }
 

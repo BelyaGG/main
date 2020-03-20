@@ -4,6 +4,7 @@ export const craeteFlight = ({from,to,date,airline,price},index) => {
     const ul = document.querySelector('.allFlights');
 
     const li = document.createElement('li');
+    li.dataset.liId = index;
     li.className = 'flight';
     li.innerHTML = `
         <div class="flight-container" >

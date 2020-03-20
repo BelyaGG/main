@@ -1,8 +1,9 @@
 import { BASKET_ARRAY } from '../arr/Basker_array.js';
 import { createTicketBasket } from '../utils/header/createTicketBasket.js';
 import { totalSum } from '../utils/totalSum.js';
-import { addEventNum } from '../utils/header/addEventNum.js'
-import { clickBtnOk } from '../utils/header/clickBtnOk.js'
+import { addEventNum } from '../utils/header/addEventNum.js';
+import { clickBtnOk } from '../utils/header/clickBtnOk.js';
+import { clickBtnCancel } from '../utils/header/clickBtnCancel.js';
 
 export const renderBasket = () => {
     document.querySelector('.info-window').innerHTML = `
@@ -20,5 +21,6 @@ export const renderBasket = () => {
     addEventNum();
 
     document.querySelector('.info-window-btn-ok').addEventListener('click', clickBtnOk )
+    document.querySelector('.info-window-btn-cancel').addEventListener('click', clickBtnCancel)
 }
 
